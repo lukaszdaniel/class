@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: class 7.3-9\n"
 "Report-Msgid-Bugs-To: bugs@r-project.org\n"
-"POT-Creation-Date: 2013-03-18 09:49\n"
+"POT-Creation-Date: 2025-06-27 23:29\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
@@ -10,38 +10,102 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "na-Revision-Date: 2012-05-29 07:55+0100\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
-"X-Poedit-SourceCharset: iso-8859-1\n"
-"X-Generator: Poedit 1.5.4\n"
-
-# class/R/SOM.R: 52
-# stop("wrong plot method used")
-# class/R/SOM.R: 62
-# stop("wrong plot method used")
-msgid "wrong plot method used"
-msgstr "błędnie użyta metoda rysowania wykresu"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.6\n"
 
 # class/R/SOM.R: 77
 # stop("'SOM' called with no data")
+#. R/SOM.R: stop("'SOM' called with no data")
+#: R/SOM.R:0
 msgid "'SOM' called with no data"
 msgstr "'SOM' zostało wywołane bez danych"
 
-# class/R/SOM.R: 83
-# stop("'radii' must be a list of the same length as 'alpha'")
-msgid "'radii' must be a list of the same length as 'alpha'"
-msgstr "argument 'radii' musi być listą tej samej długości co argument 'alpha'"
-
 # class/R/SOM.R: 92
 # stop("'alpha' and 'radii' do not have the same lengths")
+#. R/SOM.R: stop("'alpha' and 'radii' do not have the same lengths")
+#: R/SOM.R:0
 msgid "'alpha' and 'radii' do not have the same lengths"
 msgstr "argumenty 'alpha' oraz 'radii' nie posiadają tych samych długości"
 
 # class/R/SOM.R: 108
 # stop("'alpha' and 'radii' do not match")
+#. R/SOM.R: stop("'alpha' and 'radii' do not match")
+#: R/SOM.R:0
 msgid "'alpha' and 'radii' do not match"
 msgstr "argumenty 'alpha' oraz 'radii' nie zgadzają się"
+
+# class/R/lvq.R: 34
+# stop("'prior' is of incorrect length")
+#. R/lvq.R: stop("'prior' is of incorrect length")
+#: R/lvq.R:0
+msgid "'prior' is of incorrect length"
+msgstr "argument 'prior' posiada niepoprawną długość"
+
+# class/R/SOM.R: 83
+# stop("'radii' must be a list of the same length as 'alpha'")
+#. R/SOM.R: stop("'radii' must be a list of the same length as 'alpha'")
+#: R/SOM.R:0
+msgid "'radii' must be a list of the same length as 'alpha'"
+msgstr "argument 'radii' musi być listą tej samej długości co argument 'alpha'"
+
+# class/R/knn.R: 27
+# stop("'train' and 'class' have different lengths")
+# class/R/knn.R: 56
+# stop("'train' and 'class' have different lengths")
+# class/R/knn.R: 95
+# stop("'train' and 'class' have different lengths")
+#. R/knn.R: stop("'train' and 'class' have different lengths")
+#: R/knn.R:0
+msgid "'train' and 'class' have different lengths"
+msgstr "argumenty 'train' oraz 'class' mają różne długości"
+
+# class/R/knn.R: 27
+# stop("'train' and 'class' have different lengths")
+# class/R/knn.R: 56
+# stop("'train' and 'class' have different lengths")
+# class/R/knn.R: 95
+# stop("'train' and 'class' have different lengths")
+#. R/lvq.R: stop("'x' and 'cl' have different lengths")
+#: R/lvq.R:0
+msgid "'x' and 'cl' have different lengths"
+msgstr "argumenty 'train' oraz 'class' mają różne długości"
+
+# class/R/knn.R: 29
+# stop("dims of 'test' and 'train' differ")
+# class/R/knn.R: 64
+# stop("dims of 'test' and 'train' differ")
+#. R/knn.R: stop("dims of 'test' and 'train' differ")
+#: R/knn.R:0
+msgid "dims of 'test' and 'train' differ"
+msgstr "wymiary argumentów 'test' oraz 'train' różnią się"
+
+# class/R/lvq.R: 33
+# stop("invalid 'prior'")
+#. R/lvq.R: stop("invalid 'prior' argument")
+#: R/lvq.R:0
+msgid "invalid 'prior' argument"
+msgstr "niepoprawny argument 'prior'"
+
+# class/R/knn.R: 58
+# warning(gettextf("k = %d exceeds number %d of patterns", k, ntr), domain = "R-class")
+# class/R/knn.R: 97
+# warning(gettextf("k = %d exceeds number %d of patterns", k, ntr-1), domain = "R-class")
+#. R/knn.R: gettextf("k = %d exceeds number %d of patterns", k, ntr)
+#. R/knn.R: gettextf("k = %d exceeds number %d of patterns", k, ntr - 1)
+#: R/knn.R:0
+msgid "k = %d exceeds number %d of patterns"
+msgstr "k = %d przekracza liczbę %d ścieżek"
+
+# class/R/knn.R: 62
+# stop(gettextf("k = %d must be at least 1", k), domain = "R-class")
+# class/R/knn.R: 101
+# stop(gettextf("k = %d must be at least 1", k), domain = "R-class")
+#. R/knn.R: gettextf("k = %d must be at least 1", k)
+#: R/knn.R:0
+msgid "k = %d must be at least 1"
+msgstr "k = %d musi być co najmniej 1"
 
 # class/R/lvq.R: 26
 # stop("no missing values are allowed")
@@ -59,64 +123,31 @@ msgstr "argumenty 'alpha' oraz 'radii' nie zgadzają się"
 # stop("no missing values are allowed")
 # class/R/knn.R: 92
 # stop("no missing values are allowed")
+#. R/knn.R: stop("no missing values are allowed")
+#. R/lvq.R: stop("no missing values are allowed")
+#: R/knn.R:0 R/lvq.R:0
 msgid "no missing values are allowed"
 msgstr "żadne brakujące wartości nie są dozwolone"
 
-# class/R/knn.R: 27
-# stop("'train' and 'class' have different lengths")
-# class/R/knn.R: 56
-# stop("'train' and 'class' have different lengths")
-# class/R/knn.R: 95
-# stop("'train' and 'class' have different lengths")
-msgid "'train' and 'class' have different lengths"
-msgstr "argumenty 'train' oraz 'class' mają różne długości"
-
-# class/R/knn.R: 29
-# stop("dims of 'test' and 'train' differ")
-# class/R/knn.R: 64
-# stop("dims of 'test' and 'train' differ")
-msgid "dims of 'test' and 'train' differ"
-msgstr "wymiary argumentów 'test' oraz 'train' różnią się"
-
-# class/R/knn.R: 58
-# warning(gettextf("k = %d exceeds number %d of patterns", k, ntr), domain = "R-class")
-# class/R/knn.R: 97
-# warning(gettextf("k = %d exceeds number %d of patterns", k, ntr-1), domain = "R-class")
-msgid "k = %d exceeds number %d of patterns"
-msgstr "k = %d przekracza liczbę %d ścieżek"
-
-# class/R/knn.R: 62
-# stop(gettextf("k = %d must be at least 1", k), domain = "R-class")
-# class/R/knn.R: 101
-# stop(gettextf("k = %d must be at least 1", k), domain = "R-class")
-msgid "k = %d must be at least 1"
-msgstr "k = %d musi być co najmniej 1"
-
-# class/R/knn.R: 27
-# stop("'train' and 'class' have different lengths")
-# class/R/knn.R: 56
-# stop("'train' and 'class' have different lengths")
-# class/R/knn.R: 95
-# stop("'train' and 'class' have different lengths")
-msgid "'x' and 'cl' have different lengths"
-msgstr "argumenty 'train' oraz 'class' mają różne długości"
-
-# class/R/lvq.R: 33
-# stop("invalid 'prior'")
-msgid "invalid 'prior'"
-msgstr "niepoprawny argument 'prior'"
-
-# class/R/lvq.R: 34
-# stop("'prior' is of incorrect length")
-msgid "'prior' is of incorrect length"
-msgstr "argument 'prior' posiada niepoprawną długość"
+# class/R/multiedit.R: 43
+# message(gettextf("pass %s size %d", pass, n2), domain = "R-class")
+#. R/multiedit.R: gettextf("pass %s size %d", pass, n2)
+#: R/multiedit.R:0
+msgid "pass %s size %d"
+msgstr "przekazano %s rozmiar %d"
 
 # class/R/multiedit.R: 26
 # warning("retained set is now too small to proceed")
+#. R/multiedit.R: warning("retained set is now too small to proceed")
+#: R/multiedit.R:0
 msgid "retained set is now too small to proceed"
 msgstr "zachowany zbiór jest teraz zbyt mały aby kontynuować"
 
-# class/R/multiedit.R: 43
-# message(gettextf("pass %s size %d", pass, n2), domain = "R-class")
-msgid "pass %s size %d"
-msgstr "przekazano %s rozmiar %d"
+# class/R/SOM.R: 52
+# stop("wrong plot method used")
+# class/R/SOM.R: 62
+# stop("wrong plot method used")
+#. R/SOM.R: stop("wrong plot method used")
+#: R/SOM.R:0
+msgid "wrong plot method used"
+msgstr "błędnie użyta metoda rysowania wykresu"

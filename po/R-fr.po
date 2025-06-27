@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: class 7.2-20\n"
 "Report-Msgid-Bugs-To: bugs@r-project.org\n"
-"POT-Creation-Date: 2020-03-25 07:35\n"
+"POT-Creation-Date: 2025-06-27 23:29\n"
 "PO-Revision-Date: 2021-04-12 18:48+0200\n"
 "Last-Translator: Philippe Grosjean <phgrosjean@sciviews.org>\n"
 "Language-Team: French <R-core@r-project.org>\n"
@@ -18,47 +18,80 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 2.4.2\n"
 
-msgid "wrong plot method used"
-msgstr "type de méthode graphique incorrecte"
-
+#. R/SOM.R: stop("'SOM' called with no data")
+#: R/SOM.R:0
 msgid "'SOM' called with no data"
 msgstr "'SOM' appelé sans données"
 
-msgid "'radii' must be a list of the same length as 'alpha'"
-msgstr "'radii' doit être une liste de même longueur que 'alpha'"
-
+#. R/SOM.R: stop("'alpha' and 'radii' do not have the same lengths")
+#: R/SOM.R:0
 msgid "'alpha' and 'radii' do not have the same lengths"
 msgstr "'alpha' et 'radii' n'ont pas la même longueur"
 
+#. R/SOM.R: stop("'alpha' and 'radii' do not match")
+#: R/SOM.R:0
 msgid "'alpha' and 'radii' do not match"
 msgstr "'alpha' et 'radii' ne correspondent pas"
 
-msgid "no missing values are allowed"
-msgstr "aucune valeur manquante n'est admise"
-
-msgid "'train' and 'class' have different lengths"
-msgstr "'train' et 'class' ont des longueurs différentes"
-
-msgid "dims of 'test' and 'train' differ"
-msgstr "les dimensions de 'test' et de 'train' diffèrent"
-
-msgid "k = %d exceeds number %d of patterns"
-msgstr "k = %d est supérieur au nombre %d de motifs"
-
-msgid "k = %d must be at least 1"
-msgstr "k = %d doit être au moins 1"
-
-msgid "'x' and 'cl' have different lengths"
-msgstr "'x' et 'cl' ont des longueurs différentes"
-
-msgid "invalid 'prior'"
-msgstr "'prior' invalide"
-
+#. R/lvq.R: stop("'prior' is of incorrect length")
+#: R/lvq.R:0
 msgid "'prior' is of incorrect length"
 msgstr "'prior' est de longueur incorrecte"
 
+#. R/SOM.R: stop("'radii' must be a list of the same length as 'alpha'")
+#: R/SOM.R:0
+msgid "'radii' must be a list of the same length as 'alpha'"
+msgstr "'radii' doit être une liste de même longueur que 'alpha'"
+
+#. R/knn.R: stop("'train' and 'class' have different lengths")
+#: R/knn.R:0
+msgid "'train' and 'class' have different lengths"
+msgstr "'train' et 'class' ont des longueurs différentes"
+
+#. R/lvq.R: stop("'x' and 'cl' have different lengths")
+#: R/lvq.R:0
+msgid "'x' and 'cl' have different lengths"
+msgstr "'x' et 'cl' ont des longueurs différentes"
+
+#. R/knn.R: stop("dims of 'test' and 'train' differ")
+#: R/knn.R:0
+msgid "dims of 'test' and 'train' differ"
+msgstr "les dimensions de 'test' et de 'train' diffèrent"
+
+#. R/lvq.R: stop("invalid 'prior' argument")
+#: R/lvq.R:0
+#, fuzzy
+msgid "invalid 'prior' argument"
+msgstr "'prior' invalide"
+
+#. R/knn.R: gettextf("k = %d exceeds number %d of patterns", k, ntr)
+#. R/knn.R: gettextf("k = %d exceeds number %d of patterns", k, ntr - 1)
+#: R/knn.R:0
+msgid "k = %d exceeds number %d of patterns"
+msgstr "k = %d est supérieur au nombre %d de motifs"
+
+#. R/knn.R: gettextf("k = %d must be at least 1", k)
+#: R/knn.R:0
+msgid "k = %d must be at least 1"
+msgstr "k = %d doit être au moins 1"
+
+#. R/knn.R: stop("no missing values are allowed")
+#. R/lvq.R: stop("no missing values are allowed")
+#: R/knn.R:0 R/lvq.R:0
+msgid "no missing values are allowed"
+msgstr "aucune valeur manquante n'est admise"
+
+#. R/multiedit.R: gettextf("pass %s size %d", pass, n2)
+#: R/multiedit.R:0
+msgid "pass %s size %d"
+msgstr "passage %s taille %d"
+
+#. R/multiedit.R: warning("retained set is now too small to proceed")
+#: R/multiedit.R:0
 msgid "retained set is now too small to proceed"
 msgstr "l'ensemble retenu est maintenant trop petit pour continuer"
 
-msgid "pass %s size %d"
-msgstr "passage %s taille %d"
+#. R/SOM.R: stop("wrong plot method used")
+#: R/SOM.R:0
+msgid "wrong plot method used"
+msgstr "type de méthode graphique incorrecte"

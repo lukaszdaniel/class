@@ -13,7 +13,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: class 7.3-5\n"
-"POT-Creation-Date: 2012-10-08 10:54\n"
+"POT-Creation-Date: 2025-06-27 23:29\n"
 "PO-Revision-Date: 2015-02-06 21:56-0600\n"
 "Last-Translator:Chel Hee Lee  <chl948@mail.usask.ca>\n"
 "Language-Team: Chel Hee Lee  <chl948@mail.usask.ca>\n"
@@ -23,47 +23,80 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "wrong plot method used"
-msgstr "사용된 플랏 메소드(plot method)가 잘못되었습니다."
-
+#. R/SOM.R: stop("'SOM' called with no data")
+#: R/SOM.R:0
 msgid "'SOM' called with no data"
 msgstr "데이터 없이 'SOM'이 호출되었습니다."
 
-msgid "'radii' must be a list of the same length as 'alpha'"
-msgstr "'radii'는 반드시 'alpha'와 같은 길이를 가지는 리스트(list)이어야 합니다."
-
+#. R/SOM.R: stop("'alpha' and 'radii' do not have the same lengths")
+#: R/SOM.R:0
 msgid "'alpha' and 'radii' do not have the same lengths"
 msgstr "'alpha'의 길이가 'radii'의 길이가 다릅니다."
 
+#. R/SOM.R: stop("'alpha' and 'radii' do not match")
+#: R/SOM.R:0
 msgid "'alpha' and 'radii' do not match"
 msgstr "'alpha'와 'radii'가 서로 일치하지 않습니다."
 
-msgid "no missing values are allowed"
-msgstr "결측값들이 있어서는 안됩니다."
-
-msgid "'train' and 'class' have different lengths"
-msgstr "'train'의 길이와 'class'의 길이가 서로 다릅니다."
-
-msgid "dims of 'test' and 'train' differ"
-msgstr "'test'의 차원과 'train'의 차원이 서로 다릅니다."
-
-msgid "k = %d exceeds number %d of patterns"
-msgstr "입력된 k = %1$d는 패턴의 개수 %2$d를 초과합니다."
-
-msgid "k = %d must be at least 1"
-msgstr "k = %d는 반드시 적어도 1 이상이어야 합니다."
-
-msgid "'x' and 'cl' have different lengths"
-msgstr "'x'의 길이와 'cl'의 길이가 다릅니다."
-
-msgid "invalid 'prior'"
-msgstr "입력된 'prior'의 값이 올바르지 않습니다."
-
+#. R/lvq.R: stop("'prior' is of incorrect length")
+#: R/lvq.R:0
 msgid "'prior' is of incorrect length"
 msgstr "입력된 'prior'의 길이가 잘못되었습니다."
 
+#. R/SOM.R: stop("'radii' must be a list of the same length as 'alpha'")
+#: R/SOM.R:0
+msgid "'radii' must be a list of the same length as 'alpha'"
+msgstr "'radii'는 반드시 'alpha'와 같은 길이를 가지는 리스트(list)이어야 합니다."
+
+#. R/knn.R: stop("'train' and 'class' have different lengths")
+#: R/knn.R:0
+msgid "'train' and 'class' have different lengths"
+msgstr "'train'의 길이와 'class'의 길이가 서로 다릅니다."
+
+#. R/lvq.R: stop("'x' and 'cl' have different lengths")
+#: R/lvq.R:0
+msgid "'x' and 'cl' have different lengths"
+msgstr "'x'의 길이와 'cl'의 길이가 다릅니다."
+
+#. R/knn.R: stop("dims of 'test' and 'train' differ")
+#: R/knn.R:0
+msgid "dims of 'test' and 'train' differ"
+msgstr "'test'의 차원과 'train'의 차원이 서로 다릅니다."
+
+#. R/lvq.R: stop("invalid 'prior' argument")
+#: R/lvq.R:0
+#, fuzzy
+msgid "invalid 'prior' argument"
+msgstr "입력된 'prior'의 값이 올바르지 않습니다."
+
+#. R/knn.R: gettextf("k = %d exceeds number %d of patterns", k, ntr)
+#. R/knn.R: gettextf("k = %d exceeds number %d of patterns", k, ntr - 1)
+#: R/knn.R:0
+msgid "k = %d exceeds number %d of patterns"
+msgstr "입력된 k = %1$d는 패턴의 개수 %2$d를 초과합니다."
+
+#. R/knn.R: gettextf("k = %d must be at least 1", k)
+#: R/knn.R:0
+msgid "k = %d must be at least 1"
+msgstr "k = %d는 반드시 적어도 1 이상이어야 합니다."
+
+#. R/knn.R: stop("no missing values are allowed")
+#. R/lvq.R: stop("no missing values are allowed")
+#: R/knn.R:0 R/lvq.R:0
+msgid "no missing values are allowed"
+msgstr "결측값들이 있어서는 안됩니다."
+
+#. R/multiedit.R: gettextf("pass %s size %d", pass, n2)
+#: R/multiedit.R:0
+msgid "pass %s size %d"
+msgstr "pass %s size %d"
+
+#. R/multiedit.R: warning("retained set is now too small to proceed")
+#: R/multiedit.R:0
 msgid "retained set is now too small to proceed"
 msgstr "얻어진 세트(set)가 현재 너무 작아 더 이상 진행할 수 없습니다."
 
-msgid "pass %s size %d"
-msgstr "pass %s size %d"
+#. R/SOM.R: stop("wrong plot method used")
+#: R/SOM.R:0
+msgid "wrong plot method used"
+msgstr "사용된 플랏 메소드(plot method)가 잘못되었습니다."

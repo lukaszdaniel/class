@@ -17,9 +17,10 @@
  */
 
 #include <stdlib.h> // currently in R.h
-#include <R.h>
 #include <math.h>
 #include <float.h>
+#include <R.h>
+#include "localization.h"
 
 #define EPS 1e-4		/* relative test of equality of distances */
 
@@ -133,7 +134,7 @@ VR_knn(int *kin, int *lin, int *pntr, int *pnte, int *p,
 /* Keep an extra distance if the largest current one ties with current kth */
 			if (nndist[kn] <= nndist[kinit - 1])
 			    if (++kn == MAX_TIES - 1)
-				Rf_error("too many ties in knn");
+				Rf_error(_("too many ties in knn"));
 			break;
 		    }
 	    nndist[kn] = 0.99 * DBL_MAX;
